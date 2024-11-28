@@ -1,0 +1,39 @@
+#include<stdio.h>
+void main()
+{
+    int matrix[3][3];
+    printf("Enter elemnt for a 3x3 matrix:\n");
+    for(int i=0;i<3;i++)
+    {
+        for(int j=0;j<3;j++)
+        {
+        printf("Enter element at [%d][%d]\n:",i,j);
+        scanf("%d",&matrix[i][j]);
+         }
+    }
+    printf("The 3x3 matrix is:\n");
+    for(int i=0;i<3;i++)
+    {
+        for(int j=0;j<3;j++)
+        {
+            printf("%d",matrix[i][j]);
+        }
+        printf("\n");
+    }
+}
+*************************************
+Enter elemnt for a 3x3 matrix:
+Enter element at [0][0]
+Enter element at [0][1]
+:Enter element at [0][2]
+:Enter element at [1][0]
+:Enter element at [1][1]
+:Enter element at [1][2]
+:Enter element at [2][0]
+:Enter element at [2][1]
+:Enter element at [2][2]
+:The 3x3 matrix is:
+123
+456
+788
+*************************************
